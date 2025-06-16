@@ -1,12 +1,19 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Hero from "@/components/Hero";
+import CulturalNavigation from "@/components/CulturalNavigation";
+import GameMechanics from "@/components/GameMechanics";
+import EducationalTools from "@/components/EducationalTools";
+import SocialFeatures from "@/components/SocialFeatures";
+import MultimediaGallery from "@/components/MultimediaGallery";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 color-black text-black">Добро пожаловать!</h1>
-        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
-      </div>
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50">
+      <Hero />
+      <CulturalNavigation />
+      <GameMechanics />
+      <EducationalTools />
+      <SocialFeatures />
+      <MultimediaGallery />
     </div>
   );
 };
